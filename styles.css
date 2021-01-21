@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container{
+    background-color: white;
+    width: 1300px;
+    justify-content: center;
+}
+
+#img-container{
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.left-pane{
+    background-color:white;
+    width: 27vw;
+    height:503px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top:46px;
+    box-shadow: 0px 1px 5px #888888;
+}
+
+.logo{
+    width: 30%;
+    padding-top: 30px;
+    padding-right: 860px; 
+    margin: 0 auto;
+}
+
+.loginContainer{
+    margin-top: 20vh;
+}
+
+#headingText{
+    font-size: 1.6rem;
+}
+
+#highlighted{
+    color: #099dfd;
+}
+
+#email{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 85%;
+    font-size: 1.25rem;
+    border: 2px solid #099dfd;
+    border-radius: 5px;
+}
+
+.submitButton{
+    background-color: #099dfd;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 7px;
+}
+
+#flexContainer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 140px;
+    padding-top: 46px;
+}
+
+#right-pane{
+    flex: 2;
+    text-align: center;
+    background-color: #099dfd;
+    width: 1000px;
+    height: 550px;
+    box-shadow: 0px 1px 5px #888888;
+    
+}
+
+#illustration{
+    max-width: 70%;
+    max-height: 60%;
+}
+
+#illustrationContainer{
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 10px;
+    
+}
+
+#textContainer{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#bottomText{
+    font-size: 1.45rem;
+    color: white;
+}
